@@ -7,13 +7,13 @@
 function reverseString(string) {
     console.log("Girilen Değer: ", string);
 
-    var splittedString = string.split("");
+    var splittedString = string.split(" ");
     console.log("🚀 ~ file: script.js ~ line 11 ~ reverseString ~ splittedString", splittedString)
 
     var reversedArray = splittedString.reverse();
     console.log("🚀 ~ file: script.js ~ line 14 ~ reverseString ~ reversedArray", reversedArray)
     
-    var joinedArray = reversedArray.join("");
+    var joinedArray = reversedArray.join(" ");
     console.log("🚀 ~ file: script.js ~ line 17 ~ reverseString ~ joinedArray", joinedArray)
 
     document.querySelector("#display-string").innerText = joinedArray;

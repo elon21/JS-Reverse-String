@@ -24,7 +24,6 @@ main {
     justify-content: space-evenly;
     height: 200px;
     align-items: center;
-    border: 1px solid red;
 }
 
 main .display {
