@@ -38,3 +38,8 @@ main p {
     background-color: tomato;
 }
 
+#input-string, #submit-button {
+    height: 30px;
+    border-radius: 5px;
+    padding: 0 20px;
+}
